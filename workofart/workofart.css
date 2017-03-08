@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
+
+body {
+  font-family: 'Old Standard TT', serif;
+  padding-bottom: 5em;
+}
+.p3 {
+  font-family: 'Open Sans', sans-serif; 
+  font-size: .77em;
+  word-spacing: 12px;
+  padding-top: 3rem; 
+  margin-left: 10%;
+  width: 100%;    
+  text-align: center;
+  transform: rotate(90deg); 
+  position: fixed;
+  left:18rem;
+  top: 23rem;
+  color: dimgray;
+}
+.p3 a{
+    text-decoration:none;
+    color: black;
+}
+.p3 a:hover{
+    font-weight: 100;
+    color: gray;
+}
+.p3 a:active {
+    color: darksalmon;
+}
+h1 {
+  font-size: 3em;
+  font-weight: 500;
+  margin-bottom: 3rem;
+  line-height: 1.25;
+  text-indent: -.08em; 
+  color: dimgray;
+}
+h2 {
+  font-size: 2em;
+  font-weight: 100;
+  margin-bottom: 2rem;
+  margin-left: -1.4rem;
+  line-height: 1.25;
+  text-indent: -.08em;
+  max-width: 4em;
+  transform: rotate(-90deg);
+  text-align: left;
+  color: dimgray;
+}
+article {
+  max-width: 50em;
+  margin-left: auto;
+  margin-right: auto;
+}
+article header {
+  max-width: 30em;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Playfair Display', serif;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2rem;
+  text-align: center
+}
+article header p {
+  max-width: 30em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.75em;
+  font-weight: 100;
+  letter-spacing: 5px;
+}
+article section p {
+  max-width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify
+}
+article blockquote {
+  max-width: 30em;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Old Standard TT', serif;
+  margin-bottom: 1rem;
+  line-height: 22px;
+  text-align: justify;      
+}
+article blockquote p {
+  max-width: 50em;
+  margin-top: 5em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10rem;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-size: 0.7em;
+  font-weight: 400;
+  color: black;
+  line-height: 16px;
+  text-align: right;
+  border-top: 0.1em solid black;
+}
+blockquote {
+  font-size: 1em;
+  color: gray;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: italic
+}
+#preface{
+  margin-top:10rem;
+  padding-top:-10px;
+    
+  
+}
+#one{
+  margin-bottom:  
+}
+#two{
+    
+}
