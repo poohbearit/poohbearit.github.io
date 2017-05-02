@@ -108,7 +108,7 @@ h2{
   text-align: center; 
 }
 h2 button.toggle {
-        background: #202020;
+        background: none;
         border: 1px solid #aaa;
         border-radius: 2px;
         box-shadow: 0 3px 3px rgba(0,0,0,.2);
@@ -122,14 +122,14 @@ h2 button.toggle {
     }
 
 h2 button.toggle:active {
-        background: darkgray;
+        background: none;
         box-shadow: inset 0 3px 3px rgba(0,0,0,.2);
     }
 #instagram {
     position: fixed;
     right: 2.3%;
-    top: 6.5rem;
-    background-color: #202020;
+    top: 6.4rem;
+    background-color: none;
     display: block;
     font-family: 'Helvetica Neue';
     font-size: 0.8em;
@@ -152,10 +152,8 @@ h2 button.toggle:active {
 #linkedin {
     position: fixed;
     right: 2.3%;
-    top: 8rem;
-    background-color: #202020;
-    border: 1px solid;
-    border-color: #202020;
+    top: 7.9rem;
+    background-color: none;
     display: block;
     font-family: 'Helvetica Neue';
     font-size: 0.8em;
@@ -178,10 +176,7 @@ h2 button.toggle:active {
 }
 
 #MOVE_TOP_BTN {
-    background-color: #202020;
-    border: 1px solid;
-    border-color: #202020;
-    border-radius: 50%;
+    background-color: none;
     position: fixed;
     right: 2%;
     top: 4.5rem;
