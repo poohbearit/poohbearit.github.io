@@ -77,7 +77,7 @@ h1{
     margin-left: auto;
     margin-right: auto;
     font-family: 'Roboto', sans-serif;
-    font-size: 80px;
+    font-size: 39px;
     font-weight: 900;
     text-align: center;
     text-shadow: 5px 5px 5px #aaa;
@@ -276,4 +276,16 @@ figure.project.hover figcaption:before {
 }
 .module img{
     width: 100%;
+}
+.project-page{
+   color: #aaa;
+   font-family: 'Helvetica Neue';
+   font-size: 1em;
+   font-weight: 300;
+   letter-spacing: 0.02em;
+
+}
+@media only screen and (min-width: 768px) {
+    h1{
+    font-size: 80px;   
 }

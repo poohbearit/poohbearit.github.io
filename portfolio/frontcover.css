@@ -11,7 +11,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     font-family: 'Roboto', sans-serif;
-    font-size: 120px;
+    font-size: 80px;
     font-weight: 900;
     text-align: center;
     text-shadow: 5px 5px 5px #aaa;
@@ -67,3 +67,9 @@ color: #aaa;
 position: absolute;top: 0;left: 0;z-index: 3000;cursor: default;}
 #outerCircleText div {position: relative;}
 #outerCircleText div div {position: absolute;top: 0;left: 0;text-align: center;}
+
+
+@media only screen and (min-width: 768px) {
+    #title{
+    font-size: 120px;   
+}
